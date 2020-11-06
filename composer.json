@@ -1,5 +1,5 @@
 {
-    "name": "coder_lk/payhere_for_laravel",
+    "name": "upathissa/laravel_payhere",
     "description": "package for intergration Payhere payment gateway with ojet",
     "license": "MIT",
     "authors": [
@@ -11,5 +11,15 @@
     "require": {},
     "require-dev": {
         "orchestra/testbench": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "upathissa\\LaravelPayhere\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "upathissa\\LaravelPayhere\\Tests\\": "tests/"
+        }
     }
 }
