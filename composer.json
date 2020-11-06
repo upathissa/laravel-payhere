@@ -1,0 +1,15 @@
+{
+    "name": "coder_lk/payhere_for_laravel",
+    "description": "package for intergration Payhere payment gateway with ojet",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amila Upathissa",
+            "email": "amilaupathissa@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.3"
+    }
+}
